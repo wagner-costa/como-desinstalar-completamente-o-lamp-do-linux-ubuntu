@@ -2,11 +2,17 @@
 
 # Isso removerá o Apache.
 sudo service apache2 stop
+
 sudo apt-get purge apache2 apache2-utils apache2.2-bin 
+
 sudo apt remove apache2.*
+
 sudo apt-get autoremove
+
 whereis apache2
+
 Repita o comando abaixo para todos que mostrar no comando acima.
+
 sudo rm -rf /etc/apache2 
 
 # Isso removerá a versão do PHP. Digite sua versão do php antes de executar o comando abaixo. Estou usando o php 8.0.x mude para sua versao.
