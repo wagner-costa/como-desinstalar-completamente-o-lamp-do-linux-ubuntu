@@ -1,5 +1,4 @@
-# como-desinstalar-completamente-o-lamp-do-linux-ubuntu
-Como desinstalar completamente o LAMP do Linux Ubuntu
+# Como desinstalar completamente o LAMP do Linux Ubuntu
 
 # Isso removerá o Apache.
 sudo service apache2 stop
